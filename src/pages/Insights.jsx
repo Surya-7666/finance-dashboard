@@ -4,7 +4,23 @@ import { FinanceContext } from "../context/FinanceContext";
 export default function InsightsPage() {
   const { transactions } = useContext(FinanceContext);
 
-  const max = transactions.reduce((a,b)=> a.amount>b.amount?a:b);
+  // 🛡️ Safe fallback
+  const safeTransactions = transactions || [];
+
+  if (safeTransactions.length === 0) {
+    return (
+      <div className="bg-white/5 p-6 rounded-xl">
+        <h2 className="text-xl font-bold">Insights</h2>
+        <p className="text-gray-400 mt-2">
+          No data available yet
+        </p>
+      </div>
+    );
+  }
+
+  const max = safeTransactions.reduce((a, b) =>
+    a.amount > b.amount ? a : b
+  );
 
   return (
     <div className="bg-white/5 p-6 rounded-xl">

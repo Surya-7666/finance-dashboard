@@ -1,18 +1,82 @@
-# React + Vite
+# 💰 FinTrack – Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive finance dashboard built using React, Vite, Tailwind CSS, and Recharts.  
+It helps users track income, expenses, and visualize financial insights in a clean and interactive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+🔗 https://your-vercel-link.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📂 GitHub Repository
+🔗 https://github.com/YOUR_USERNAME/finance-dashboard
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React (Frontend Framework)
+- ⚡ Vite (Build Tool)
+- 🎨 Tailwind CSS (Styling)
+- 📊 Recharts (Data Visualization)
+- 🔄 React Context API (State Management)
+- 🌐 React Router (Routing)
+
+---
+
+## ✨ Features
+
+- 📊 Dashboard Overview (Balance, Income, Expense)
+- 📈 Interactive Charts (Line + Pie)
+- 💳 Transaction Management
+- 🔍 Search & Filter Transactions
+- 👥 Role-Based UI (Admin / Viewer)
+- 📱 Fully Responsive (Mobile, Tablet, Desktop)
+- 🌙 Modern Glassmorphism UI
+
+---
+
+## 🧠 Key Highlights
+
+- Clean and modular component structure
+- Efficient state management using Context API
+- Responsive layout with adaptive sidebar navigation
+- Smooth UI interactions and transitions
+- Focus on user experience and readability
+
+---
+
+## ⚠️ Limitations
+
+- Uses mock/static data (no backend integration)
+- No authentication system
+- Limited advanced analytics
+
+---
+
+## 🔮 Future Improvements
+
+- Backend integration (Node.js / Firebase)
+- User authentication & authorization
+- Data persistence and real-time updates
+- Advanced financial insights & filtering
+- Export reports (CSV / PDF)
+
+---
+
+## 🛠️ Setup & Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/finance-dashboard.git
+
+# Navigate to project
+cd finance-dashboard
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev

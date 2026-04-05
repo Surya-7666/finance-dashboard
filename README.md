@@ -37,6 +37,20 @@ It helps users track income, expenses, and visualize financial insights in a cle
 - 🌙 Modern Glassmorphism UI
 
 ---
+## 📸 Screenshots
+
+### 📊 Dashboard
+![Dashboard](./src/assets/dashboard.jpeg)
+
+---
+
+### 💳 Transactions
+![Transactions](./src/assets/transactions.jpeg)
+
+---
+
+### 📈 Insights
+![Insights](./src/assets/insights.jpeg)
 
 ## 🧠 Key Highlights
 
